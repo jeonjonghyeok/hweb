@@ -2820,3 +2820,30 @@ body.is-menu-visible #menu {
   transform: translateX(0);
   box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
   visibility: visible; }
+
+  #topMenu {            
+                        height: 30px; 
+                        width: 850px; 
+                }
+                #topMenu ul li {                       
+                        list-style: none;           
+                        color: white;               
+                        background-color: #2d2d2d;  
+                        float: left;                
+                        line-height: 30px;         
+                        vertical-align: middle;     
+                        text-align: center;         
+                }
+                #topMenu .menuLink {                               
+                        text-decoration:none;                      
+                        color: white;                              
+                        display: block;                          
+                        width: 150px;                              
+                        font-size: 12px;                           
+                        font-weight: bold;                        
+                        font-family: "Trebuchet MS", Dotum, Arial; 
+                }
+                #topMenu .menuLink:hover {          
+                        color: red;                  
+                        background-color: #4d4d4d;    
+                }
