@@ -22,13 +22,15 @@
 					<a href="#menu">Menu</a>
 				</nav>
 			</header>
-
+				
+				
+				
 		<!-- Nav -->
 			<div class="mr-auto">
             <nav id= "topMenu">
               <ul>
                 <li>
-                  <a href="#" class="menuLink">프로젝트 소개</a>
+                  <a href="#introduce" class="menuLink">프로젝트 소개</a>
                 </li>
                 <li class="has-children active">
                   <a href="#" class="menuLink">참여기업</a>
@@ -42,9 +44,33 @@
                 <li>
                   <a href="#" class="menuLink">식품</a>
                     <ul class="dropdown">
-                    <li><a href="teachers.html"><img src="images/goldFried.jpg" width="100" height="100" border="0">후라이드치킨</a></li>
-                    <li><a href="about.html">양념치킨</a></li>
-                    <li><a href="about.html">간장치킨</a></li>
+						<script>
+					  function gold(){
+						  var url = "gold.html";
+						  var name = "popup test";
+						  var option = "width = 500, height = 600, top = 100, left = 200, location = no"
+						  window.open(url,name,option);
+					  }
+				  </script>
+                    <li><a href="javascript:gold()">후라이드치킨</a></li>
+						<script>
+					  function seasoning(){
+						  var url = "seasoning.html";
+						  var name = "popup test";
+						  var option = "width = 500, height = 600, top = 100, left = 200, location = no"
+						  window.open(url,name,option);
+					  }
+				  </script>
+                    <li><a href="javascript:seasoning()">양념치킨</a></li>
+						<script>
+					  function paris(){
+						  var url = "paris.html";
+						  var name = "popup test";
+						  var option = "width = 500, height = 600, top = 100, left = 200, location = no"
+						  window.open(url,name,option);
+					  }
+				  </script>
+                    <li><a href="javascript:paris()">빠리치킨</a></li>
                   </ul>
                   </li>
                 </ul>
@@ -60,11 +86,15 @@
 			</section>
 
 		<!-- Highlights -->
-			<section class="wrapper">
+			<section class="wrapper" id="introduce">
 				<div class="inner">
 					<header class="special">
-						<h2>Sem turpis amet semper</h2>
-						<p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor.</p>
+						<h2>프로젝트 소개</h2>
+						<ul>1.1. 프로젝트의 목표</ul>
+						<li>프렌차이저 업체에서 유통과정을 소비자에게 제공함으로써 업체신뢰 가능 프렌차이저 업체의 매출증가 효과 기대</li>
+						<li>블록체인 기반의 네트워크를 구축하여 원산지를 위조하거나, 유통과정 조작 방지</li>
+						<li>프렌차이저 업체뿐만 아니라 유통회사들 까지도 위생적으로 변화될 것이다.</li>
+						
 					</header>
 					<div class="highlights">
 						<section>
