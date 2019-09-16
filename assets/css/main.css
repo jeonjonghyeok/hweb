@@ -2880,7 +2880,8 @@ body.is-menu-visible #menu {
 #main-menu{
     display: inline-block;
     height: 3.25rem;
-    width: 100%;
+     width:100%;
+    background: #111111;
 }
 
 #main-menu > li{
@@ -2888,6 +2889,7 @@ body.is-menu-visible #menu {
     background: #111111;
     border: 1px solid black;  /*임시 테두리 선 설정*/
      list-style-type: none; /*블릿을 없앤다 */
+   
 }
 
 #main-menu > li > a{
