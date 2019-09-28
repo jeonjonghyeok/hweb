@@ -1,20 +1,40 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
-	Industrious by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+  Industrious by TEMPLATED
+  templated.co @templatedco
+  Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 <html>
-	<head>
-		<title>김경동</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+  <head>
+    <title>김경동</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="is-preload">
+    <!-- Header -->
+    <header id="header">
+      <a class="logo" href="index.html">Industrious</a>
+      <nav>
+        <a class="login" href="javascript:login()"> login </a>
+        <script>
+          function login() {
+            var url = "login.html";
+            var name = "popup test";
+            var option =
+              "width = 500, height = 600, top = 100, left = 200, location = no";
+            window.open(url, name, option);
+          }
+        </script>
+      </nav>
+    </header>
 
+<<<<<<< HEAD
 		<!-- Header -->
 			<header id="header">
 				<a class="logo" href="index.html">Industrious</a>
@@ -93,175 +113,316 @@
 				</div>
 				<video autoplay loop muted playsinline src="images/banner.mp4"></video>
 			</section>
+=======
+    <!-- Nav -->
+    <div class="mr-auto">
+      <ul id="main-menu">
+        <li><a href="#introduce" class="menuLink">프로젝트 소개</a></li>
+        <li>
+          <a href="#" class="menuLink">참여기업</a>
+          <ul id="sub-menu">
+            <li><a href="#">생산자</a></li>
+            <li><a href="#">유통자</a></li>
+            <li><a href="#">프렌차이즈</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="menuLink">식품</a>
+          <ul id="sub-menu">
+            <script>
+              function gold() {
+                var url = "gold.html";
+                var name = "popup test";
+                var option =
+                  "width = 500, height = 600, top = 100, left = 200, location = no";
+                window.open(url, name, option);
+              }
+            </script>
+            <li><a href="javascript:gold()">후라이드치킨</a></li>
+            <script>
+              function seasoning() {
+                var url = "seasoning.html";
+                var name = "popup test";
+                var option =
+                  "width = 500, height = 600, top = 100, left = 200, location = no";
+                window.open(url, name, option);
+              }
+            </script>
+            <li><a href="javascript:seasoning()">양념치킨</a></li>
+            <script>
+              function paris() {
+                var url = "paris.html";
+                var name = "popup test";
+                var option =
+                  "width = 500, height = 600, top = 100, left = 200, location = no";
+                window.open(url, name, option);
+              }
+            </script>
+            <li><a href="javascript:paris()">빠리치킨</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- Banner -->
+    <section id="banner">
+      <div class="inner">
+        <form class="js-toDoForm">
+          <input type="text" placeholder="검색어 입력" />
+        </form>
+        <!-- <ul class="js-toDoList"></ul> -->
+      </div>
+>>>>>>> 3a8820ca8bd8172c3079d87d0cefc1e76a090d0f
 
-		<!-- Highlights -->
-			<section class="wrapper" id="introduce">
-				<div class="inner">
-					<header class="special">
-						<h2>프로젝트 소개</h2>
-						<ul>1.1. 프로젝트의 목표</ul>
-						<li>프렌차이저 업체에서 유통과정을 소비자에게 제공함으로써 업체신뢰 가능 프렌차이저 업체의 매출증가 효과 기대</li>
-						<li>블록체인 기반의 네트워크를 구축하여 원산지를 위조하거나, 유통과정 조작 방지</li>
-						<li>프렌차이저 업체뿐만 아니라 유통회사들 까지도 위생적으로 변화될 것이다.</li>
-						
-					</header>
-					<div class="highlights">
-						<section>
-							<div class="content">
-								<header>
-									<a href="#" class="icon fa-vcard-o"><span class="label">Icon</span></a>
-									<h3>Feugiat consequat</h3>
-								</header>
-								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
-							</div>
-						</section>
-						<section>
-							<div class="content">
-								<header>
-									<a href="#" class="icon fa-files-o"><span class="label">Icon</span></a>
-									<h3>Ante sem integer</h3>
-								</header>
-								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
-							</div>
-						</section>
-						<section>
-							<div class="content">
-								<header>
-									<a href="#" class="icon fa-floppy-o"><span class="label">Icon</span></a>
-									<h3>Ipsum consequat</h3>
-								</header>
-								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
-							</div>
-						</section>
-						<section>
-							<div class="content">
-								<header>
-									<a href="#" class="icon fa-line-chart"><span class="label">Icon</span></a>
-									<h3>Interdum gravida</h3>
-								</header>
-								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
-							</div>
-						</section>
-						<section>
-							<div class="content">
-								<header>
-									<a href="#" class="icon fa-paper-plane-o"><span class="label">Icon</span></a>
-									<h3>Faucibus consequat</h3>
-								</header>
-								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
-							</div>
-						</section>
-						<section>
-							<div class="content">
-								<header>
-									<a href="#" class="icon fa-qrcode"><span class="label">Icon</span></a>
-									<h3>Accumsan viverra</h3>
-								</header>
-								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
-							</div>
-						</section>
-					</div>
-				</div>
-			</section>
+      <video autoplay loop muted playsinline src="images/banner.mp4"></video>
+    </section>
 
-		<!-- CTA -->
-			<section id="cta" class="wrapper">
-				<div class="inner">
-					<h2>Curabitur ullamcorper ultricies</h2>
-					<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida.</p>
-				</div>
-			</section>
+    <!-- Highlights -->
+    <section class="wrapper" id="introduce">
+      <div class="inner">
+        <header class="special">
+          <h2>프로젝트 소개</h2>
+          <ul>
+            1.1. 프로젝트의 목표
+          </ul>
+          <li>
+            프렌차이저 업체에서 유통과정을 소비자에게 제공함으로써 업체신뢰 가능
+            프렌차이저 업체의 매출증가 효과 기대
+          </li>
+          <li>
+            블록체인 기반의 네트워크를 구축하여 원산지를 위조하거나, 유통과정
+            조작 방지
+          </li>
+          <li>
+            프렌차이저 업체뿐만 아니라 유통회사들 까지도 위생적으로 변화될
+            것이다.
+          </li>
+        </header>
+        <div class="highlights">
+          <section>
+            <div class="content">
+              <header>
+                <a href="#" class="icon fa-vcard-o"
+                  ><span class="label">Icon</span></a
+                >
+                <h3>Feugiat consequat</h3>
+              </header>
+              <p>
+                Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing
+                gravida odio porttitor sem non mi integer non faucibus.
+              </p>
+            </div>
+          </section>
+          <section>
+            <div class="content">
+              <header>
+                <a href="#" class="icon fa-files-o"
+                  ><span class="label">Icon</span></a
+                >
+                <h3>Ante sem integer</h3>
+              </header>
+              <p>
+                Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing
+                gravida odio porttitor sem non mi integer non faucibus.
+              </p>
+            </div>
+          </section>
+          <section>
+            <div class="content">
+              <header>
+                <a href="#" class="icon fa-floppy-o"
+                  ><span class="label">Icon</span></a
+                >
+                <h3>Ipsum consequat</h3>
+              </header>
+              <p>
+                Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing
+                gravida odio porttitor sem non mi integer non faucibus.
+              </p>
+            </div>
+          </section>
+          <section>
+            <div class="content">
+              <header>
+                <a href="#" class="icon fa-line-chart"
+                  ><span class="label">Icon</span></a
+                >
+                <h3>Interdum gravida</h3>
+              </header>
+              <p>
+                Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing
+                gravida odio porttitor sem non mi integer non faucibus.
+              </p>
+            </div>
+          </section>
+          <section>
+            <div class="content">
+              <header>
+                <a href="#" class="icon fa-paper-plane-o"
+                  ><span class="label">Icon</span></a
+                >
+                <h3>Faucibus consequat</h3>
+              </header>
+              <p>
+                Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing
+                gravida odio porttitor sem non mi integer non faucibus.
+              </p>
+            </div>
+          </section>
+          <section>
+            <div class="content">
+              <header>
+                <a href="#" class="icon fa-qrcode"
+                  ><span class="label">Icon</span></a
+                >
+                <h3>Accumsan viverra</h3>
+              </header>
+              <p>
+                Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing
+                gravida odio porttitor sem non mi integer non faucibus.
+              </p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
 
-		<!-- Testimonials -->
-			<section class="wrapper">
-				<div class="inner">
-					<header class="special">
-						<h2>Faucibus consequat lorem</h2>
-						<p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor.</p>
-					</header>
-					<div class="testimonials">
-						<section>
-							<div class="content">
-								<blockquote>
-									<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
-								</blockquote>
-								<div class="author">
-									<div class="image">
-										<img src="images/pic01.jpg" alt="" />
-									</div>
-									<p class="credit">- <strong>Jane Doe</strong> <span>CEO - ABC Inc.</span></p>
-								</div>
-							</div>
-						</section>
-						<section>
-							<div class="content">
-								<blockquote>
-									<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
-								</blockquote>
-								<div class="author">
-									<div class="image">
-										<img src="images/pic03.jpg" alt="" />
-									</div>
-									<p class="credit">- <strong>John Doe</strong> <span>CEO - ABC Inc.</span></p>
-								</div>
-							</div>
-						</section>
-						<section>
-							<div class="content">
-								<blockquote>
-									<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
-								</blockquote>
-								<div class="author">
-									<div class="image">
-										<img src="images/pic02.jpg" alt="" />
-									</div>
-									<p class="credit">- <strong>Janet Smith</strong> <span>CEO - ABC Inc.</span></p>
-								</div>
-							</div>
-						</section>
-					</div>
-				</div>
-			</section>
+    <!-- CTA -->
+    <section id="cta" class="wrapper">
+      <div class="inner">
+        <h2>Curabitur ullamcorper ultricies</h2>
+        <p>
+          Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio
+          porttitor sem non mi integer non faucibus ornare mi ut ante amet
+          placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan
+          varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum
+          ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis
+          iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer ac sed
+          amet praesent. Nunc lacinia ante nunc ac gravida.
+        </p>
+      </div>
+    </section>
 
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<div class="content">
-						<section>
-							<h3>Accumsan montes viverra</h3>
-							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida.</p>
-						</section>
-						<section>
-							<h4>Sem turpis amet semper</h4>
-							<ul class="alt">
-								<li><a href="#">Dolor pulvinar sed etiam.</a></li>
-								<li><a href="#">Etiam vel lorem sed amet.</a></li>
-								<li><a href="#">Felis enim feugiat viverra.</a></li>
-								<li><a href="#">Dolor pulvinar magna etiam.</a></li>
-							</ul>
-						</section>
-						<section>
-							<h4>Magna sed ipsum</h4>
-							<ul class="plain">
-								<li><a href="#"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
-								<li><a href="#"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
-								<li><a href="#"><i class="icon fa-instagram">&nbsp;</i>Instagram</a></li>
-								<li><a href="#"><i class="icon fa-github">&nbsp;</i>Github</a></li>
-							</ul>
-						</section>
-					</div>
-					<div class="copyright">
-						&copy; Untitled. Photos <a href="https://unsplash.co">Unsplash</a>, Video <a href="https://coverr.co">Coverr</a>.
-					</div>
-				</div>
-			</footer>
+    <!-- Testimonials -->
+    <section class="wrapper">
+      <div class="inner">
+        <header class="special">
+          <h2>Faucibus consequat lorem</h2>
+          <p>
+            In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim
+            aliquet. Accumsan ac integer lobortis commodo ornare aliquet
+            accumsan erat tempus amet porttitor.
+          </p>
+        </header>
+        <div class="testimonials">
+          <section>
+            <div class="content">
+              <blockquote>
+                <p>
+                  Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing
+                  gravida odio porttitor sem non mi integer non faucibus.
+                </p>
+              </blockquote>
+              <div class="author">
+                <div class="image"><img src="images/pic01.jpg" alt="" /></div>
+                <p class="credit">
+                  - <strong>Jane Doe</strong> <span>CEO - ABC Inc.</span>
+                </p>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="content">
+              <blockquote>
+                <p>
+                  Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing
+                  gravida odio porttitor sem non mi integer non faucibus.
+                </p>
+              </blockquote>
+              <div class="author">
+                <div class="image"><img src="images/pic03.jpg" alt="" /></div>
+                <p class="credit">
+                  - <strong>John Doe</strong> <span>CEO - ABC Inc.</span>
+                </p>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="content">
+              <blockquote>
+                <p>
+                  Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing
+                  gravida odio porttitor sem non mi integer non faucibus.
+                </p>
+              </blockquote>
+              <div class="author">
+                <div class="image"><img src="images/pic02.jpg" alt="" /></div>
+                <p class="credit">
+                  - <strong>Janet Smith</strong> <span>CEO - ABC Inc.</span>
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="inner">
+        <div class="content">
+          <section>
+            <h3>Accumsan montes viverra</h3>
+            <p>
+              Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida
+              odio porttitor sem non mi integer non faucibus ornare mi ut ante
+              amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem
+              accumsan varius montes viverra nibh in adipiscing. Lorem ipsum
+              dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit
+              adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu
+              faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac
+              gravida.
+            </p>
+          </section>
+          <section>
+            <h4>Sem turpis amet semper</h4>
+            <ul class="alt">
+              <li><a href="#">Dolor pulvinar sed etiam.</a></li>
+              <li><a href="#">Etiam vel lorem sed amet.</a></li>
+              <li><a href="#">Felis enim feugiat viverra.</a></li>
+              <li><a href="#">Dolor pulvinar magna etiam.</a></li>
+            </ul>
+          </section>
+          <section>
+            <h4>Magna sed ipsum</h4>
+            <ul class="plain">
+              <li>
+                <a href="#"><i class="icon fa-twitter">&nbsp;</i>Twitter</a>
+              </li>
+              <li>
+                <a href="#"><i class="icon fa-facebook">&nbsp;</i>Facebook</a>
+              </li>
+              <li>
+                <a href="#"><i class="icon fa-instagram">&nbsp;</i>Instagram</a>
+              </li>
+              <li>
+                <a href="#"><i class="icon fa-github">&nbsp;</i>Github</a>
+              </li>
+            </ul>
+          </section>
+        </div>
+        <div class="copyright">
+          &copy; Untitled. Photos <a href="https://unsplash.co">Unsplash</a>,
+          Video <a href="https://coverr.co">Coverr</a>.
+        </div>
+      </div>
+    </footer>
 
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/search.js"></script>
+  </body>
 </html>
