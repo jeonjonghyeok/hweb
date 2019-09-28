@@ -6,7 +6,7 @@ const TODOS_LS = "toDos";
 function paintToDo(text) {
   if (text == "bbq") paris();
   else {
-    console.log(text);
+    alert(text + "는 없습니다");
   }
 }
 function paris() {
