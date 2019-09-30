@@ -1,53 +1,36 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
-	Industrious by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+  Industrious by TEMPLATED
+  templated.co @templatedco
+  Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 <html>
-	<head>
-		<header id="header">
-				<a class="logo" href="index.html">Industrious</a>
-			</header>
-		<title>김경동</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
-         <form method="post" id="authForm" action="https://www.tistory.com/auth/login">
-    <input type="hidden" name="redirectUrl" value="https://blogpack.tistory.com/manage">
-    <fieldset>
-      <legend class="screen_out"></legend>
-      <div class="box_login">
-        <div class="inp_text">
-          <label for="loginId" class="screen_out">아이디</label>
-          <input type="email" id="loginId" name="loginId" placeholder="ID" >
-        </div>
-        <div class="inp_text">
-          <label for="loginPw" class="screen_out">비밀번호</label>
-          <input type="password" id="loginPw" name="password" placeholder="Password" >
-        </div>
-      </div>
-      <button type="submit" class="btn_login"  disabled>로그인</button>
-      <div class="login_append">
-        <div class="inp_chk"> <!-- 체크시 checked 추가 -->
-          <input type="checkbox" id="keepLogin" class="inp_radio"  name="keepLogin">
-          <label for="keepLogin" class="lab_g">
-<span class="img_top ico_check"></span>
-<span class="txt_lab">로그인 상태 유지</span>
-  </label>
-        </div>
-        <span class="txt_find">
-           <a href="/member/find/loginId" class="link_find">아이디</a>
-            / 
-           <a href="/member/find/password" class="link_find">비밀번호 찾기</a>
-         </span>
-      </div>
-      
-    </fieldset>
-  </form>
-	</body>
+  <head>
+    <header id="header">
+      <a class="logo" href="index.html">Industrious</a>
+    </header>
+    <title>김경동</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <form action="assets/js/login.js" id="login-form" method="post">
+      <label class="legend">아이디</label>
+
+      <input name="id" type="text" />
+
+      <label class="legend">패스워드</label>
+
+      <input name="passwprd" type="password" />
+      <input type="submit" value="완료" />
+    </form>
+
+    <script src="assets/js/login.js"></script>
+  </body>
 </html>
