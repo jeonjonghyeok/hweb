@@ -1825,7 +1825,7 @@ ul.icons {
   text-align: center;
   width: 100%; }
   #banner input, #banner select, #banner textarea {
-    color: #ffffff; }
+      color: #ffffff; }
   #banner a {
     color: #ce1b28; }
   #banner strong, #banner b {
@@ -1965,11 +1965,15 @@ ul.icons {
     transition: opacity 1s ease, transform 1s ease;
     opacity: 1;
     position: relative;
-    z-index: 3; }
+    top:0; left:0; bottom:0; right:0;
+      height:10%;
+      margin: 10% auto;
+    z-index: 3;
+    }
     #banner > .inner > :last-child {
       margin-bottom: 0; }
   #banner h1 {
-    font-size: 4rem;
+    font-size: rem;
     margin-bottom: 1rem; }
   #banner p {
     font-size: 1.5rem; }
@@ -2056,6 +2060,9 @@ ul.icons {
     opacity: 0; }
   body.is-preload #banner:before {
     opacity: 1; }
+
+/* search */
+
 
 /* CTA */
 #cta {
@@ -2882,6 +2889,7 @@ body.is-menu-visible #menu {
     height: 3.25rem;
      width:100%;
     margin: 0 auto;
+    text-align: center;
 
     
     background: #111111;
@@ -2929,9 +2937,12 @@ body.is-menu-visible #menu {
      list-style-type: none;
     
 }
-
+#soft{
+    text-align: center;
+}
 
 /*검색창타입*/
+/*
 #banner Button{
     float: right;
     overflow: hidden;
@@ -2942,6 +2953,10 @@ body.is-menu-visible #menu {
 #banner input{
     text-align:center;
     margin: 0 auto;
-    width: 400px;
+    width: 300px;
     
 }
+#banner inner{
+    text-align:center;
+    margin: 0 auto;
+}*/
