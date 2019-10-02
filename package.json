@@ -1,10 +1,9 @@
 {
   "name": "hweb",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "init.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --exec babel-node init.js --delay 2"
   },
   "repository": {
     "type": "git",
@@ -17,6 +16,18 @@
   },
   "homepage": "https://github.com/jeonjonghyeok/hweb#readme",
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "@babel/core": "^7.6.2",
+    "@babel/node": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "helmet": "^3.21.1",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  },
+  "description": ""
 }
