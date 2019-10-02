@@ -3,7 +3,9 @@ import morgan from "morgan";
 import helmet from "helmet";
 import cookieParser from "cookie-parser";
 import bodyParser from "body-parser";
-import userRouter from "./router";
+import userRouter from "./routers/userRouter";
+import globalRouter from "./routers/globalRouter";
+import searchRouter from "./routers/searchRouter";
 
 const app = express();
 
@@ -17,11 +19,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(helmet());
 app.use(morgan("dev")); //어떤 종류의 접속인지 console창에보여줌 common,dev,tiny등등
 
-const handleHome = (req,res) => res.render("index.html");
-const handleLogin = (req,res) => res.render("login.html");
-const handleSignin = (req,res) => res.render("signin.html");
-app.get("/", handleHome);
-app.get("/login", handleLogin);
-app.get("/signin", handleSignin);
+app.use("/", globalRouter);
+app.use("/user", userRouter);
+app.use("/search",searchRouter);
 
 export default app;

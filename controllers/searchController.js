@@ -1,0 +1,1 @@
+export const bbq = (req,res) => res.render("bbq.html");

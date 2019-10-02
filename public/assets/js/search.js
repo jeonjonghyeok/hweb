@@ -4,7 +4,7 @@ const toDoForm = document.querySelector(".js-toDoForm"),
 const TODOS_LS = "toDos";
 
 function paintToDo(text) {
-  if (text == "bbq") location.href = "paris.html";
+  if (text == "bbq") location.href = "search/bbq";
   else {
     alert(text + "는 없습니다");
   }

@@ -1,9 +1,23 @@
-import express from "express";
+// global
 
-const userRouter = express.Router();
+const HOME = "/";
+const SIGNIN = "/signin";
+const LOGIN = "/login";
+const LOGOUT = "/logout";
+const BBQ = "/bbq";
 
-userRouter.get("/", (req,res)=> res.send('user index'));
-userRouter.get("/edit", (req,res)=> res.send('user edit'));
-userRouter.get("/password", (req,res)=> res.send('user password'));
+// users
 
-export default userRouter;
+const USERS = "/users";
+
+const routes = {
+    home: HOME,
+    signin: SIGNIN,
+    login: LOGIN,
+    logout: LOGOUT,
+    users : USERS,
+    bbq : BBQ
+};
+
+
+export default routes;
