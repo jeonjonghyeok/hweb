@@ -19,7 +19,9 @@ app.use(morgan("dev")); //어떤 종류의 접속인지 console창에보여줌 c
 
 const handleHome = (req,res) => res.render("index.html");
 const handleLogin = (req,res) => res.render("login.html");
+const handleSignin = (req,res) => res.render("signin.html");
 app.get("/", handleHome);
 app.get("/login", handleLogin);
+app.get("/signin", handleSignin);
 
 export default app;
