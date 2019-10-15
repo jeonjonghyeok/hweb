@@ -132,6 +132,10 @@ p {
 header.special {
   text-align: center;
   margin-bottom: 4rem; }
+
+header.special li{
+  list-style:none;   
+}
   header.special p {
     max-width: 75%;
     margin-left: auto;
