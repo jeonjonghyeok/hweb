@@ -1856,21 +1856,25 @@ ul.icons {
     #banner input[type="button"]:hover,
     #banner button:hover,
     #banner .button:hover {
-      box-shadow: inset 0 0 0 1px #ce1b28;
-      color: #ce1b28 !important; }
+/*      box-shadow: inset 0 0 0 1px #ce1b28;*/
+/*      color: #ce1b28 !important;*/
+}
       #banner input[type="submit"]:hover:active,
       #banner input[type="reset"]:hover:active,
       #banner input[type="button"]:hover:active,
       #banner button:hover:active,
+/*
       #banner .button:hover:active {
-        background-color: rgba(206, 27, 40, 0.25); }
+        background-color: rgba(206, 27, 40, 0.25);
+}
+*/
     #banner input[type="submit"].primary,
     #banner input[type="reset"].primary,
     #banner input[type="button"].primary,
     #banner button.primary,
     #banner .button.primary {
       box-shadow: none;
-      background-color: #ce1b28;
+/*      background-color: #ce1b28;*/
       color: #ffffff !important; }
       #banner input[type="submit"].primary:hover,
       #banner input[type="reset"].primary:hover,
@@ -2943,6 +2947,7 @@ body.is-menu-visible #menu {
 }
 #soft{
     text-align: center;
+    background: #111111;
 }
 
 /*검색창타입*/
@@ -2964,3 +2969,52 @@ body.is-menu-visible #menu {
     text-align:center;
     margin: 0 auto;
 }*/
+.bbq_menu{
+    text-align:center;
+}
+.square{
+/*
+  padding: 8rem 0 6rem 0 ;
+  position: relative;
+  z-index: 1; }
+  @media screen and (max-width: 1280px) {
+    .square {
+      padding: 4rem 0 2rem 0 ; } }
+  @media screen and (max-width: 736px) {
+    .square {
+      padding: 3rem 0 1rem 0 ; } }
+  @media screen and (max-width: 480px) {
+    .square {
+      padding: 2rem 0 0.1rem 0 ; } }
+*/
+}
+.bbq_square1{
+    margin-bottom: 300px;
+    padding-bottom: 200px;
+}
+.bbq_square1{
+    margin-bottom: 300px;
+    padding-bottom: 200px;
+}
+.nemo_l{
+    width:200px; 
+    background:#111111; 
+    height:150px; 
+    background:#111111; 
+    float: left; 
+    margin-left: 150px;
+    text-align: center";
+}
+.nemo_r{
+    width:200px; 
+    background:#111111; 
+    height:150px; 
+    background:#111111; 
+    float: right; 
+    margin-right: 150px;
+    text-align: center";
+}
+.bbq_square1{
+    
+}
+
