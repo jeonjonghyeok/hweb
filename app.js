@@ -8,6 +8,17 @@ import globalRouter from "./routers/globalRouter";
 import searchRouter from "./routers/searchRouter";
 
 const app = express();
+var SerialPort = require('serialport'),
+    portName = 'COM4',
+    sp = new SerialPort(portName),
+    sensorVal = 0;
+sp.on('open', function(){
+    console.log('connected...');
+    sp.on('data', function(data){
+		console.log(data.toString());
+    });
+
+});
 
 app.set('views', __dirname + '/views');
 app.set('view engine','html');
